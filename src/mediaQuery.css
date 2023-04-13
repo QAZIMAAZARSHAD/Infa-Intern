@@ -1,0 +1,40 @@
+@media only screen and (max-width: 600px) {
+    .my_heading {
+        font-size: 1.8rem;
+    }
+
+    .my_heading span {
+        font-size: 2rem;
+    }
+
+    #my_name {
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+
+    #header_brand img {
+        height: 30px;
+
+    }
+
+    /* end of navbar */
+
+    /* carousel */
+    #header_carousel img {
+        height: 500px !important;
+        width: 100vw;
+    }
+
+    /* end of carousel */
+
+    /* my learnings starts here*/
+    #mylearnings_box h3 {
+        text-align: center;
+    }
+
+    #mylearnings_box .inner_learnings {
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+}
