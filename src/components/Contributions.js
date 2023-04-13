@@ -38,8 +38,8 @@ const Contributions = () => {
                                 <div className="content">
                                     <h4>First Task</h4>
                                     <ul>
-                                        <li>
-                                            MDMN-86490: Fix e2e tests failing on BUI after tenant
+                                        <li><span class="jira"><span class="jira">
+                                            MDMN-86490</span></span>: Fix e2e tests failing on BUI after tenant
                                             model change
                                         </li>
                                     </ul>
@@ -55,15 +55,15 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-53574: CSS Bug</li>
-                                        <li>MDMN-52689: CSS Bug</li>
-                                        <li>MDMN-89348: Translation Bug</li>
-                                        <li>MDMN-89341: Translation Bug</li>
-                                        <li>MDMN-89941: Translation Bug</li>
-                                        <li>MDMN-89316: Translation Bug</li>
-                                        <li>MDMN-64253: E2E Tests</li>
-                                        <li>MDMN-89215: Translation Bug</li>
-                                        <li>MDMN-89218: Translation Bug</li>
+                                        <li><span class="jira"><span class="jira">MDMN-53574</span></span>: CSS Bug</li>
+                                        <li><span class="jira">MDMN-52689</span>: CSS Bug</li>
+                                        <li><span class="jira">MDMN-89348</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89341</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89941</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89316</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-64253</span>: E2E Tests</li>
+                                        <li><span class="jira">MDMN-89215</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89218</span>: Translation Bug</li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,17 +81,17 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-89347: Translation Bug</li>
-                                        <li>MDMN-89337: Translation Bug</li>
-                                        <li>MDMN-89928: Translation Bug</li>
-                                        <li>MDMN-89287: Translation Bug</li>
-                                        <li>MDMN-89223: Translation Bug</li>
-                                        <li>MDMN-89285: Translation Bug</li>
-                                        <li>MDMN-90072: Translation Bug</li>
-                                        <li>MDMN-89229: Translation Bug</li>
-                                        <li>MDMN-80337: CSS Bug</li>
-                                        <li>PXM-4684: CSS Bug</li>
-                                        <li>MDMN-81674: E2E Tests</li>
+                                        <li><span class="jira">MDMN-89347</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89337</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89928</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89287</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89223</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89285</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-90072</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-89229</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-80337</span>: CSS Bug</li>
+                                        <li><span class="jira">PXM-4684</span>: CSS Bug</li>
+                                        <li><span class="jira">MDMN-81674</span>: E2E Tests</li>
                                     </ul>
                                 </div>
                             </div>
@@ -105,14 +105,14 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-91236: Translation Bug</li>
-                                        <li>MDMN-91234: Translation Bug</li>
-                                        <li>MDMN-91237: Translation Bug</li>
-                                        <li>PXM-4230: Seq Edit Bug</li>
-                                        <li>PXM-2129: CSS Bug</li>
-                                        <li>MDMN-75522: CSS Bug</li>
-                                        <li>MDMN-61109: CSS Bug</li>
-                                        <li>PXM-3871: RBAC SHM Bug</li>
+                                        <li><span class="jira">MDMN-91236</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-91234</span>: Translation Bug</li>
+                                        <li><span class="jira">MDMN-91237</span>: Translation Bug</li>
+                                        <li><span class="jira">PXM-4230</span>: Seq Edit Bug</li>
+                                        <li><span class="jira">PXM-2129</span>: CSS Bug</li>
+                                        <li><span class="jira">MDMN-75522</span>: CSS Bug</li>
+                                        <li><span class="jira">MDMN-61109</span>: CSS Bug</li>
+                                        <li><span class="jira">PXM-3871</span>: RBAC SHM Bug</li>
                                     </ul>
                                 </div>
                             </div>
@@ -126,10 +126,10 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-94451: Customer Story (DateTime Range Facet)</li>
-                                        <li>MDMN-80065: R360 SHM Bug</li>
-                                        <li>MDMN-95716: Enrichment Bug</li>
-                                        <li>PXM-2674: Hierarchy Bug</li>
+                                        <li><span class="jira">MDMN-94451</span>: Customer Story (DateTime Range Facet)</li>
+                                        <li><span class="jira">MDMN-80065</span>: R360 SHM Bug</li>
+                                        <li><span class="jira">MDMN-95716</span>: Enrichment Bug</li>
+                                        <li><span class="jira">PXM-2674</span>: Hierarchy Bug</li>
                                     </ul>
                                 </div>
                             </div>
@@ -147,10 +147,10 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-97750: Tenant Model Update Story</li>
-                                        <li>MDMN-97956: Link Accept API Story</li>
-                                        <li>MDMN-96519: SHM UI Bug</li>
-                                        <li>MDMN-97235: Enrichment Bug</li>
+                                        <li><span class="jira">MDMN-97750</span>: Tenant Model Update Story</li>
+                                        <li><span class="jira">MDMN-97956</span>: Link Accept API Story</li>
+                                        <li><span class="jira">MDMN-96519</span>: SHM UI Bug</li>
+                                        <li><span class="jira">MDMN-97235</span>: Enrichment Bug</li>
                                     </ul>
                                 </div>
                             </div>
@@ -164,10 +164,10 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-88552: Enrichment Bug</li>
-                                        <li>MDMN-98367: Enrichment Bug</li>
-                                        <li>MDMN-102821: Feature Toggle Bug</li>
-                                        <li>MDMN-95509: Config API Story</li>
+                                        <li><span class="jira">MDMN-88552</span>: Enrichment Bug</li>
+                                        <li><span class="jira">MDMN-98367</span>: Enrichment Bug</li>
+                                        <li><span class="jira">MDMN-102821</span>: Feature Toggle Bug</li>
+                                        <li><span class="jira">MDMN-95509</span>: Config API Story</li>
                                     </ul>
                                 </div>
                             </div>
@@ -181,10 +181,10 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>MDMN-96902: Enrichment Bug</li>
-                                        <li>MDMN-64777: Record Pages Bug</li>
-                                        <li>PXM-2374: Hierarchy Bug</li>
-                                        <li>PXM-2375: Hierarchy Bug</li>
+                                        <li><span class="jira">MDMN-96902</span>: Enrichment Bug</li>
+                                        <li><span class="jira">MDMN-64777</span>: Record Pages Bug</li>
+                                        <li><span class="jira">PXM-2374</span>: Hierarchy Bug</li>
+                                        <li><span class="jira">PXM-2375</span>: Hierarchy Bug</li>
                                     </ul>
                                 </div>
                             </div>
