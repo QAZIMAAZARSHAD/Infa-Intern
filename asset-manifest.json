@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Infa-Intern/static/css/main.1ec2e5ec.css",
+    "main.js": "/Infa-Intern/static/js/main.76d9378e.js",
+    "static/js/787.a1796e91.chunk.js": "/Infa-Intern/static/js/787.a1796e91.chunk.js",
+    "static/media/thank_you.gif": "/Infa-Intern/static/media/thank_you.0aa7cf41926bff8ca079.gif",
+    "static/media/background5.jpg": "/Infa-Intern/static/media/background5.01de96a4d3e82e49cd0e.jpg",
+    "static/media/wedata.gif": "/Infa-Intern/static/media/wedata.28d7c6202c7af3038f6b.gif",
+    "static/media/fun_friday.png": "/Infa-Intern/static/media/fun_friday.5104fb00822e29110f8a.png",
+    "static/media/jenkins.png": "/Infa-Intern/static/media/jenkins.ada52d92dcd9affa7a2f.png",
+    "static/media/triangle.png": "/Infa-Intern/static/media/triangle.ea1006d97ba873e626c7.png",
+    "static/media/background1.jpg": "/Infa-Intern/static/media/background1.f25a1d5fe7622f0d9dfe.jpg",
+    "static/media/team.png": "/Infa-Intern/static/media/team.f9480725f0a47fa7ddad.png",
+    "static/media/prompt.png": "/Infa-Intern/static/media/prompt.11fc6a6b9379fb476d21.png",
+    "static/media/logo.png": "/Infa-Intern/static/media/logo.37adf4625a0ef7074b95.png",
+    "static/media/hard_work.png": "/Infa-Intern/static/media/hard_work.37ebe9d70d18d87647f3.png",
+    "static/media/problem_solver.png": "/Infa-Intern/static/media/problem_solver.94e95241370291056ca4.png",
+    "static/media/sunil.png": "/Infa-Intern/static/media/sunil.3f0e8d450d7babca5db4.png",
+    "index.html": "/Infa-Intern/index.html",
+    "main.1ec2e5ec.css.map": "/Infa-Intern/static/css/main.1ec2e5ec.css.map",
+    "main.76d9378e.js.map": "/Infa-Intern/static/js/main.76d9378e.js.map",
+    "787.a1796e91.chunk.js.map": "/Infa-Intern/static/js/787.a1796e91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec2e5ec.css",
+    "static/js/main.76d9378e.js"
+  ]
+}
