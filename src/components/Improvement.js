@@ -46,9 +46,7 @@ const Improvement = () => {
                                 <h5 className="card-title">
                                     <SiReact />
                                 </h5>
-                                <p className="card-text">
-                                    Advanced Concepts of React.js
-                                </p>
+                                <p className="card-text">Advanced Concepts of React.js</p>
                             </div>
                         </div>
                     </div>

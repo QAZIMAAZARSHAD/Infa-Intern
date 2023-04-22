@@ -1,8 +1,6 @@
 import React from "react";
 import { FaRocket, FaToolbox, FaAward } from "react-icons/fa";
-import {
-    AiFillHtml5
-} from "react-icons/ai";
+import { AiFillHtml5 } from "react-icons/ai";
 import {
     SiCsswizardry,
     SiJavascript,
@@ -14,7 +12,7 @@ import {
     SiBitbucket,
     SiTypescript,
     SiTestcafe,
-    SiVisualstudiocode
+    SiVisualstudiocode,
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 import { GrReactjs } from "react-icons/gr";
