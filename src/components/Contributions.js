@@ -185,6 +185,7 @@ const Contributions = () => {
                                         <li><span class="jira">MDMN-64777</span>: Record Pages Bug</li>
                                         <li><span class="jira">PXM-2374</span>: Hierarchy Bug</li>
                                         <li><span class="jira">PXM-2375</span>: Hierarchy Bug</li>
+                                        <li><span class="jira">MDMN-105711</span>: Address Validation Bug</li>
                                     </ul>
                                 </div>
                             </div>
