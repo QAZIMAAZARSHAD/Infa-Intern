@@ -16,16 +16,16 @@ const Introduction = () => {
                             Contributions
                         </Link>
                         <Link className="nav_link" to="#learnings">
-                            Skills
+                            Learnings
                         </Link>
                         <Link className="nav_link" to="#imporvement">
                             Improvement
                         </Link>
-                        <Link className="nav_link" to="#considerMe">
-                            Consider Me
+                        <Link className="nav_link" to="#strengths">
+                            Strengths
                         </Link>
-                        <Link className="nav_link" to="#archive">
-                            Extra
+                        <Link className="nav_link" to="#extras">
+                            Extras
                         </Link>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import kt from '../assets/kt.png';
 const Timeline = () => {
     return (
         <div>
-            <div className="timeline" id="archive">
+            <div className="timeline" id="extras">
                 <div className="outer">
                     <div className="timeline_card" >
                         <div className="info">

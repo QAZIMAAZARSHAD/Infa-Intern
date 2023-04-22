@@ -7,17 +7,16 @@ import team from "../assets/team.png";
 
 const ConsiderMe = () => {
     return (
-        <div className="considerMe_box" id="considerMe">
+        <div className="considerMe_box" id="strengths">
             <p className="my_heading" data-aos="fade-up">
-                Why <span style={{ fontSize: "3rem", color: "black" }}>?</span> You
-                Should{" "}
+                My{" "}
                 <span className="d-inline-block">
                     <Typewriter
                         options={{
                             autoStart: true,
                             loop: true,
                             delay: 40,
-                            strings: ["Consider Me"],
+                            strings: ["Strengths"],
                         }}
                     />
                 </span>

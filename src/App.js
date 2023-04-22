@@ -6,9 +6,9 @@ import Triangle from "./components/Triangle";
 import Contributions from "./components/Contributions";
 import Learnings from "./components/Learnings";
 import Improvement from "./components/Improvement";
-import ConsiderMe from "./components/ConsiderMe";
+import Strengths from "./components/Strengths";
 import Footer from "./components/Footer";
-import Timeline from "./components/Timeline";
+import Extras from "./components/Extras";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Thankyou from "./components/Thankyou";
@@ -28,8 +28,8 @@ function App() {
       <Triangle />
       <Learnings />
       <Improvement />
-      <ConsiderMe />
-      <Timeline />
+      <Strengths />
+      <Extras />
       <Thankyou />
       <Footer />
     </div>
