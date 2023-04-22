@@ -27,10 +27,10 @@ const Timeline = () => {
                     </div>
                     <div className="timeline_card">
                         <div className="info">
-                            <h3 className="title" data-aos="fade-right">
+                            <h3 className="title" data-aos="fade-left">
                                 Maintained dev subpods <span>Subpod Maintenance</span>
                             </h3>
-                            <img src={jenkins} alt="" data-aos="fade-right" />
+                            <img src={jenkins} alt="" data-aos="fade-left" />
                         </div>
                     </div>
                     <div className="timeline_card">
