@@ -299,7 +299,12 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>Can't predict the future</li>
+                                        <li>
+                                            <span class="jira">MDMN-105793</span>: Vader Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-107700</span>: Enrichment Bug
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
