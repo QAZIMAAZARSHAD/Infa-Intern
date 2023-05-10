@@ -160,7 +160,7 @@ span.jira {
   color: #ff7d00;
   font-size: 3rem;
   font-weight: bold;
-  font-family: "Sacramento";
+  font-family: "Montserrat", sans-serif;
 }
 
 .learnings_content {
@@ -492,7 +492,7 @@ span.jira {
 }
 
 .info .title span {
-  font-family: "Sacramento", cursive;
+  font-family: "Playfair Display", serif;
   color: #ff7d00;
 }
 
