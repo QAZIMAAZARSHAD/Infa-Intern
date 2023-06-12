@@ -48,7 +48,7 @@ const Introduction = () => {
                             <p>JIRA Issues</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>44</p>
+                            <p>45</p>
                             <p>Pull Requests Merged</p>
                         </div>
                         <div className="intro_cards_large">
