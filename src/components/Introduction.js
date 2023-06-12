@@ -44,11 +44,11 @@ const Introduction = () => {
                 <div id="intro_works">
                     <div id="intro_card_box">
                         <div className="intro_cards">
-                            <p>48</p>
+                            <p>50</p>
                             <p>JIRA Issues</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>41</p>
+                            <p>44</p>
                             <p>Pull Requests Merged</p>
                         </div>
                         <div className="intro_cards_large">

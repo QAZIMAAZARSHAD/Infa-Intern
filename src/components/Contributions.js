@@ -318,7 +318,12 @@ const Contributions = () => {
                             <div className="face face1">
                                 <div className="content">
                                     <ul>
-                                        <li>Can't predict the future</li>
+                                        <li>
+                                            <span class="jira">PXM-3987</span>: RBAC SHM Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">PXM-3873</span>: Enrichment Bug
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
