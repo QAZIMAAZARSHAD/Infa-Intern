@@ -327,6 +327,9 @@ const Contributions = () => {
                                         <li>
                                             <span class="jira">MDMN-110036</span>: CLAIRE Bug
                                         </li>
+                                        <li>
+                                            <span class="jira">MDMN-111725</span>: DnB Bug
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

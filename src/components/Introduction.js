@@ -44,7 +44,7 @@ const Introduction = () => {
                 <div id="intro_works">
                     <div id="intro_card_box">
                         <div className="intro_cards">
-                            <p>51</p>
+                            <p>52</p>
                             <p>JIRA Issues</p>
                         </div>
                         <div className="intro_cards_large">
@@ -56,7 +56,7 @@ const Introduction = () => {
                             <p>Repositories Explored</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>9* Months</p>
+                            <p>10* Months</p>
                             <p>Internship Duration</p>
                         </div>
                         <div className="intro_cards">
