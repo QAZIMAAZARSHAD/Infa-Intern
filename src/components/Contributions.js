@@ -349,6 +349,10 @@ const Contributions = () => {
                                         <li>
                                             <span class="jira">MDMN-113233</span>: SHM Bug
                                         </li>
+                                        <li>
+                                            <span class="jira">MDMN-111377</span>: API Integration
+                                            Story
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
