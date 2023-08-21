@@ -361,6 +361,28 @@ const Contributions = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            <span class="jira">MDMN-111156</span>: Blackduck Scan
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-111157</span>: Veracode Scan
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-109732</span>: Workflow Bug
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>August '23</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

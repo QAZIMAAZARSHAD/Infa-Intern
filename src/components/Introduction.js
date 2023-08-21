@@ -44,24 +44,20 @@ const Introduction = () => {
                 <div id="intro_works">
                     <div id="intro_card_box">
                         <div className="intro_cards">
-                            <p>55</p>
+                            <p>58</p>
                             <p>JIRA Issues</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>51</p>
+                            <p>52</p>
                             <p>Pull Requests Merged</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>10</p>
+                            <p>11</p>
                             <p>Repositories Explored</p>
                         </div>
                         <div className="intro_cards_large">
                             <p>1 Year</p>
                             <p>Internship Duration</p>
-                        </div>
-                        <div className="intro_cards">
-                            <p>2</p>
-                            <p>Vacation Leaves</p>
                         </div>
                     </div>
                 </div>
