@@ -361,6 +361,10 @@ const Contributions = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="container mb-3">
+                <div className="row">
                     <div className="col-md-4">
                         <div className="card" data-aos="fade-up">
                             <div className="face face1">
@@ -373,13 +377,48 @@ const Contributions = () => {
                                             <span class="jira">MDMN-111157</span>: Veracode Scan
                                         </li>
                                         <li>
-                                            <span class="jira">MDMN-109732</span>: Workflow Bug
+                                            <span class="jira">MDMN-109732</span>: Workflow Bug Brand
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-118324</span>: Workflow Bug Hierarchy
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="face face2">
                                 <h4>August '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            Yet to come
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>September '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            Yet to come
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>October '23</h4>
                             </div>
                         </div>
                     </div>
