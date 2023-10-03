@@ -382,6 +382,9 @@ const Contributions = () => {
                                         <li>
                                             <span class="jira">MDMN-118324</span>: Workflow Bug Hierarchy
                                         </li>
+                                        <li>
+                                            <span class="jira">MDMN-119190</span>: DnB UI Bug
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -396,7 +399,16 @@ const Contributions = () => {
                                 <div className="content">
                                     <ul>
                                         <li>
-                                            Yet to come
+                                            <span class="jira">MDMN-115220</span>: ModelServe Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-112541</span>: DnB Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-111387</span>: CAI IFI Story
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-117615</span>: CAI CDI Story
                                         </li>
                                     </ul>
                                 </div>
@@ -412,7 +424,16 @@ const Contributions = () => {
                                 <div className="content">
                                     <ul>
                                         <li>
-                                            Yet to come
+                                            <span class="jira">RDCV-113870</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">RDCV-153869</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">RDCV-153871</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">RDCV-153872</span>: Version Fix
                                         </li>
                                     </ul>
                                 </div>
