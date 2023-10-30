@@ -44,19 +44,19 @@ const Introduction = () => {
                 <div id="intro_works">
                     <div id="intro_card_box">
                         <div className="intro_cards">
-                            <p>68</p>
+                            <p>79</p>
                             <p>JIRA Issues</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>60</p>
+                            <p>66</p>
                             <p>Pull Requests Merged</p>
                         </div>
                         <div className="intro_cards_large">
                             <p>11</p>
-                            <p>Repositories Explored</p>
+                            <p>Services Explored</p>
                         </div>
                         <div className="intro_cards_large">
-                            <p>1.1 Years</p>
+                            <p>1.4 Years</p>
                             <p>Internship Duration</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Introduction = () => {
                                 autoStart: true,
                                 loop: true,
                                 delay: 200,
-                                strings: ["#WHERE DATA COMES TO LIFE"],
+                                strings: ["#WHERE DATA AND AI COME TO LIFE"],
                             }}
                         />
                     </p>

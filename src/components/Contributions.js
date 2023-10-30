@@ -305,6 +305,15 @@ const Contributions = () => {
                                         <li>
                                             <span class="jira">MDMN-107700</span>: Enrichment Bug
                                         </li>
+                                        <li>
+                                            <span class="jira">PXM-3987</span>: RBAC SHM Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">PXM-3873</span>: Enrichment Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-110036</span>: CLAIRE Bug
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -319,16 +328,17 @@ const Contributions = () => {
                                 <div className="content">
                                     <ul>
                                         <li>
-                                            <span class="jira">PXM-3987</span>: RBAC SHM Bug
-                                        </li>
-                                        <li>
-                                            <span class="jira">PXM-3873</span>: Enrichment Bug
-                                        </li>
-                                        <li>
-                                            <span class="jira">MDMN-110036</span>: CLAIRE Bug
-                                        </li>
-                                        <li>
                                             <span class="jira">MDMN-111725</span>: DnB Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-109386</span>: CLAIRE Card Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-113233</span>: SHM Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-111377</span>: API Integration
+                                            Story
                                         </li>
                                     </ul>
                                 </div>
@@ -344,14 +354,16 @@ const Contributions = () => {
                                 <div className="content">
                                     <ul>
                                         <li>
-                                            <span class="jira">MDMN-109386</span>: CLAIRE Card Bug
+                                            <span class="jira">MDMN-111156</span>: Blackduck Scan
                                         </li>
                                         <li>
-                                            <span class="jira">MDMN-113233</span>: SHM Bug
+                                            <span class="jira">MDMN-111157</span>: Veracode Scan
                                         </li>
                                         <li>
-                                            <span class="jira">MDMN-111377</span>: API Integration
-                                            Story
+                                            <span class="jira">MDMN-109732</span>: Workflow Bug Brand
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-118324</span>: Workflow Bug Hierarchy
                                         </li>
                                     </ul>
                                 </div>
@@ -371,33 +383,8 @@ const Contributions = () => {
                                 <div className="content">
                                     <ul>
                                         <li>
-                                            <span class="jira">MDMN-111156</span>: Blackduck Scan
-                                        </li>
-                                        <li>
-                                            <span class="jira">MDMN-111157</span>: Veracode Scan
-                                        </li>
-                                        <li>
-                                            <span class="jira">MDMN-109732</span>: Workflow Bug Brand
-                                        </li>
-                                        <li>
-                                            <span class="jira">MDMN-118324</span>: Workflow Bug Hierarchy
-                                        </li>
-                                        <li>
                                             <span class="jira">MDMN-119190</span>: DnB UI Bug
                                         </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="face face2">
-                                <h4>August '23</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card" data-aos="fade-up">
-                            <div className="face face1">
-                                <div className="content">
-                                    <ul>
                                         <li>
                                             <span class="jira">MDMN-115220</span>: ModelServe Bug
                                         </li>
@@ -414,7 +401,7 @@ const Contributions = () => {
                                 </div>
                             </div>
                             <div className="face face2">
-                                <h4>September '23</h4>
+                                <h4>August '23</h4>
                             </div>
                         </div>
                     </div>
@@ -435,11 +422,109 @@ const Contributions = () => {
                                         <li>
                                             <span class="jira">RDCV-153872</span>: Version Fix
                                         </li>
+                                        <li>
+                                            <span class="jira">RDCV-153868</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">RDCV-153874</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">RDCV-153874</span>: Version Fix
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-123754</span>: Blackduck Scan
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-123755</span>: Veracode Scan
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>September '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            <span class="jira">MDMN-123873</span>: CAI Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-124915</span>: CAI OSC Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-124966</span>: Options API UI Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-125597</span>: Accept/Reject API UI Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-124960</span>: Model Version Bug
+                                        </li>
+                                        <li>
+                                            <span class="jira">MDMN-121376</span>: Update Post Approval API Story
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="face face2">
                                 <h4>October '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container mb-3">
+                <div className="row">
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            Future is unpredictable
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>November '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            Future is unpredictable
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>December '23</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="card" data-aos="fade-up">
+                            <div className="face face1">
+                                <div className="content">
+                                    <ul>
+                                        <li>
+                                            Future is unpredictable
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="face face2">
+                                <h4>Jan '23</h4>
                             </div>
                         </div>
                     </div>
