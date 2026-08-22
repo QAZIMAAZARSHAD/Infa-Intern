@@ -2,172 +2,85 @@ import React from "react";
 import { FaRocket, FaToolbox, FaAward } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import {
-    SiCsswizardry,
-    SiJavascript,
-    SiSpringboot,
-    SiPostman,
-    SiEclipseide,
-    SiJira,
-    SiJenkins,
-    SiBitbucket,
-    SiTypescript,
-    SiTestcafe,
-    SiVisualstudiocode,
+  SiCsswizardry,
+  SiJavascript,
+  SiSpringboot,
+  SiPostman,
+  SiEclipseide,
+  SiJira,
+  SiJenkins,
+  SiBitbucket,
+  SiTypescript,
+  SiTestcafe,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 import { GrReactjs } from "react-icons/gr";
 import { BiCodeCurly } from "react-icons/bi";
 import { VscDebugConsole } from "react-icons/vsc";
-import Typewriter from "typewriter-effect";
+
+const GROUPS = [
+  {
+    title: "Technologies",
+    icon: <FaRocket />,
+    skills: [
+      { icon: <GrReactjs />, label: "React.js" },
+      { icon: <SiTypescript />, label: "TypeScript" },
+      { icon: <AiFillHtml5 />, label: "HTML" },
+      { icon: <SiCsswizardry />, label: "CSS" },
+      { icon: <SiJavascript />, label: "JavaScript" },
+      { icon: <DiJava />, label: "Java" },
+      { icon: <SiSpringboot />, label: "Spring Boot" },
+    ],
+  },
+  {
+    title: "Tools",
+    icon: <FaToolbox />,
+    skills: [
+      { icon: <SiPostman />, label: "Postman" },
+      { icon: <SiVisualstudiocode />, label: "Visual Studio Code" },
+      { icon: <SiEclipseide />, label: "Eclipse" },
+      { icon: <SiJira />, label: "JIRA" },
+      { icon: <SiBitbucket />, label: "Bitbucket" },
+      { icon: <SiJenkins />, label: "Jenkins" },
+    ],
+  },
+  {
+    title: "Other Skills",
+    icon: <FaAward />,
+    skills: [
+      { icon: <VscDebugConsole />, label: "Debugging" },
+      { icon: <BiCodeCurly />, label: "Good Coding Practices" },
+      { icon: <SiTestcafe />, label: "Testing Procedures" },
+    ],
+  },
+];
 
 const Learnings = () => {
-    return (
-        <div className="mb-5" id="learnings">
-            <p className="my_heading" data-aos="fade-up">
-                My{" "}
-                <span className="d-inline-block">
-                    <Typewriter
-                        options={{
-                            autoStart: true,
-                            loop: true,
-                            delay: 40,
-                            strings: ["Learnings"],
-                        }}
-                    />
-                </span>{" "}
-                at Informatica
-            </p>
-            <div className="container">
-                <div className="row" style={{ marginTop: "40px" }}>
-                    <h3 data-aos="fade-up" className="text-center">
-                        <FaRocket /> Technologies
-                    </h3>
-                    <div className="myLearnings_inner">
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <GrReactjs />
-                            </p>
-                            <p> React.js</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiTypescript />
-                            </p>
-                            <p>TypeScript</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card2">
-                            <p>
-                                <AiFillHtml5 />
-                            </p>
-                            <p>HTML</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card2">
-                            <p>
-                                <SiCsswizardry />
-                            </p>
-                            <p>CSS</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiJavascript />
-                            </p>
-                            <p>JavaScript</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card2">
-                            <p>
-                                <DiJava />
-                            </p>
-                            <p>Java</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiSpringboot />
-                            </p>
-                            <p>Spring Boot</p>
-                        </div>
-                    </div>
+  return (
+    <section className="section" id="learnings">
+      <div className="wrap">
+        <h2 className="my_heading">
+          My <span>Learnings</span> at Informatica
+        </h2>
+        {GROUPS.map((group) => (
+          <div className="skill-group" key={group.title}>
+            <h3>
+              {group.icon} {group.title}
+            </h3>
+            <div className="skill-grid">
+              {group.skills.map((skill) => (
+                <div className="skill-chip" key={skill.label}>
+                  <span className="skill-chip__icon">{skill.icon}</span>
+                  <span>{skill.label}</span>
                 </div>
-
-                <div className="row">
-                    <h3
-                        data-aos="fade-up"
-                        className="text-center"
-                        style={{ marginTop: "40px" }}
-                    >
-                        <FaToolbox /> Tools
-                    </h3>
-                    <div className="myLearnings_inner">
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiPostman />
-                            </p>
-                            <p>Postman</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiVisualstudiocode />
-                            </p>
-                            <p>Visual Studio Code</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiEclipseide />
-                            </p>
-                            <p>Eclipse</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card2">
-                            <p>
-                                <SiJira />
-                            </p>
-                            <p>JIRA</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiBitbucket />
-                            </p>
-                            <p>Bitbucket</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card2">
-                            <p>
-                                <SiJenkins />
-                            </p>
-                            <p>Jenkins</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="row">
-                    <h3
-                        data-aos="fade-up"
-                        className="text-center"
-                        style={{ marginTop: "40px" }}
-                    >
-                        <FaAward /> Other Skills
-                    </h3>
-                    <div className="myLearnings_inner">
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <VscDebugConsole />
-                            </p>
-                            <p>Debugging</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <BiCodeCurly />
-                            </p>
-                            <p>Good Coding Practices</p>
-                        </div>
-                        <div data-aos="fade-up" className="learning_card">
-                            <p>
-                                <SiTestcafe />
-                            </p>
-                            <p>Testing Procedures</p>
-                        </div>
-                    </div>
-                </div>
+              ))}
             </div>
-        </div>
-    );
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Learnings;
