@@ -95,6 +95,7 @@ const MONTHS = [
       { id: "MDMN-105711", text: "Address Validation Bug" },
       { id: "MDMN-105793", text: "Vader Bug" },
       { id: "MDMN-107700", text: "Enrichment Bug" },
+      { id: "MDMN-123873", text: "CAI Bug" },
     ],
   },
   {
@@ -106,6 +107,7 @@ const MONTHS = [
       { id: "MDMN-111725", text: "DnB Bug" },
       { id: "MDMN-109386", text: "CLAIRE Card Bug" },
       { id: "MDMN-113233", text: "SHM Bug" },
+      { id: "MDMN-124915", text: "CAI OSC Bug" },
     ],
   },
   {
@@ -117,6 +119,7 @@ const MONTHS = [
       { id: "MDMN-109732", text: "Workflow Bug Brand" },
       { id: "MDMN-118324", text: "Workflow Bug Hierarchy" },
       { id: "MDMN-119190", text: "DnB UI Bug" },
+      { id: "MDMN-124966", text: "Options API UI Bug" },
     ],
   },
   {
@@ -128,6 +131,7 @@ const MONTHS = [
       { id: "MDMN-117615", text: "CAI CDI Story" },
       { id: "RDCV-113870", text: "Version Fix" },
       { id: "RDCV-153869", text: "Version Fix" },
+      { id: "MDMN-125597", text: "Accept/Reject API UI Bug" },
     ],
   },
   {
@@ -139,15 +143,6 @@ const MONTHS = [
       { id: "RDCV-153874", text: "Version Fix" },
       { id: "MDMN-123754", text: "Blackduck Scan" },
       { id: "MDMN-123755", text: "Veracode Scan" },
-    ],
-  },
-  {
-    label: "August '23",
-    items: [
-      { id: "MDMN-123873", text: "CAI Bug" },
-      { id: "MDMN-124915", text: "CAI OSC Bug" },
-      { id: "MDMN-124966", text: "Options API UI Bug" },
-      { id: "MDMN-125597", text: "Accept/Reject API UI Bug" },
       { id: "MDMN-124960", text: "Model Version Bug" },
       { id: "MDMN-121376", text: "Update Post Approval API Story" },
     ],
