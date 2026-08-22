@@ -3,8 +3,8 @@ import triangle from "../assets/triangle.png";
 
 const Triangle = () => {
   return (
-    <div id="triangle" className="container mt-3">
-      <img src={triangle} alt="triangle" />
+    <div id="triangle" className="divider" aria-hidden="true">
+      <img src={triangle} alt="" />
     </div>
   );
 };
