@@ -18,8 +18,14 @@ body {
 body {
   font-family: "Raleway", "Segoe UI", sans-serif;
   color: #1c1c28;
-  background: #fff;
+  background: #000;
   -webkit-font-smoothing: antialiased;
+}
+
+.App {
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
 }
 
 img {
