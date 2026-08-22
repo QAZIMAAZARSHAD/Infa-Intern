@@ -6,7 +6,7 @@ const STATS = [
   { value: "79", label: "JIRA Issues" },
   { value: "66", label: "Pull Requests Merged" },
   { value: "11", label: "Services Explored" },
-  { value: "1.4 Years", label: "Internship Duration" },
+  { value: "1 Year", label: "Internship Duration" },
 ];
 
 const Introduction = () => {
