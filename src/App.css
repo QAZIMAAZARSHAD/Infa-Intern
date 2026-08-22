@@ -740,6 +740,12 @@
   .section {
     padding: 3.2rem 0;
   }
+
+  .thankyou img {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 480px) {
