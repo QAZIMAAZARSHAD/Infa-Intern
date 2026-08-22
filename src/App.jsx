@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./mediaQuery.css";
 import Triangle from "./components/Triangle";
