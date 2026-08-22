@@ -5,12 +5,9 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    open-pull-requests-limit: 3
+    # Version bumps stay off; security advisories can still open a grouped PR.
+    open-pull-requests-limit: 0
     groups:
-      npm-version:
-        applies-to: version-updates
-        patterns:
-          - "*"
       npm-security:
         applies-to: security-updates
         patterns:
