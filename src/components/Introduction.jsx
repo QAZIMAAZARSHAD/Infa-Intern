@@ -1,32 +1,29 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { BrowserRouter } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import logo from "../assets/logo.png";
 
 const Introduction = () => {
     return (
-        <BrowserRouter>
             <div className="container-fluid" id="intro_box">
                 <div id="intro_navbar">
                     <img src={logo} alt="logo" />
                     <div className="" id="navbar">
-                        <Link className="nav_link" to="#contribution">
+                        <a className="nav_link" href="#contribution">
                             Contributions
-                        </Link>
-                        <Link className="nav_link" to="#learnings">
+                        </a>
+                        <a className="nav_link" href="#learnings">
                             Learnings
-                        </Link>
-                        <Link className="nav_link" to="#imporvement">
+                        </a>
+                        <a className="nav_link" href="#imporvement">
                             Improvement
-                        </Link>
-                        <Link className="nav_link" to="#strengths">
+                        </a>
+                        <a className="nav_link" href="#strengths">
                             Strengths
-                        </Link>
-                        <Link className="nav_link" to="#extras">
+                        </a>
+                        <a className="nav_link" href="#extras">
                             Extras
-                        </Link>
+                        </a>
                     </div>
                 </div>
                 <div className="row mt-5">
@@ -74,12 +71,11 @@ const Introduction = () => {
                     </p>
                 </div>
                 <div id="down_arrow">
-                    <Link className="nav_link" to="#contribution">
+                    <a className="nav_link" href="#contribution">
                         <BsChevronDoubleDown id="arrow_icon" />
-                    </Link>
+                    </a>
                 </div>
             </div>
-        </BrowserRouter>
     );
 };
 
